@@ -1,0 +1,36 @@
+{
+  "name": "koa-basic-session",
+  "version": "0.0.1",
+  "description": "Simple cookie based sessions for Koa2",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "license": "ISC",
+  "author": {
+    "name": "Ken Johnson",
+    "email": "kenj4242@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenj4242/koa-basic-session.git"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.22.0",
+    "babel-runtime": "^6.22.0"
+  },
+  "devDependencies": {
+    "autoreload-gulp": "^0.1.0",
+    "babel-preset-latest": "^6.22.0",
+    "chai": "^3.5.0",
+    "cookie": "^0.3.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "koa": "^2.2.0",
+    "koa-basic-session-filestore": "0.0.1",
+    "mocha": "^3.3.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0",
+    "sinon": "^2.2.0"
+  }
+}
